@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head><meta charset="utf-8">
+  <title>Piedra - Papel - Tijera</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/fontawesome/css/all.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap" rel="stylesheet">
+  <script src="js/main.js"></script>
+</head>
+<body>
+  <div class="countdown">
+    <h1>Elije una opción</h1>
+    <h1><span id="countdown"></span></h1>
+    <input type="hidden" name="stopper" value="0">
+  </div>
+  <div class="main">
+    <div class="playerChoise">
+      <div class="option" style="cursor:pointer;">
+        <i class="fas fa-hand-rock"></i>
+        <input type="hidden" name="rock" value="1">
+      </div>
+      <div class="option" style="cursor:pointer;">
+        <i class="fas fa-hand-paper"></i>
+        <input type="hidden" name="paper" value="2">
+      </div>
+      <div class="option" style="cursor:pointer;">
+        <i class="fas fa-hand-scissors"></i>
+        <input type="hidden" name="scissor" value="3">
+      </div>
+    </div>
+    <div class="score">
+      <div class="playerScore">
+        <h3>0</h3>
+      </div>
+      <div class="versus">
+        :
+      </div>
+      <div class="computerScore">
+        <h3>0</h3>
+      </div>
+    </div>
+    <div class="computerChoise">
+      <div class="option">
+        <i class="fas fa-hand-rock"></i>
+        <input type="hidden" name="rock" value="1">
+      </div>
+      <div class="option">
+        <i class="fas fa-hand-paper"></i>
+        <input type="hidden" name="paper" value="2">
+      </div>
+      <div class="option">
+        <i class="fas fa-hand-scissors"></i>
+        <input type="hidden" name="scissor" value="3">
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

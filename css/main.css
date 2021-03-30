@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'DotGothic16', sans-serif;
+  background-image: url('../img/background.jpg');
+}
+.countdown{
+  text-align: center;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+  width:30vw;
+  margin: 15px auto;
+  padding:10px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.main {
+  margin-top: 30vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main div {}
+
+.playerChoise {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #D5FF25;
+  width: 35%;
+  margin: 2.5%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.computerChoise {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #7A9700;
+  width: 35%;
+  margin: 2.5%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.option {
+  background-color: #a6c620;
+  width: 70px;
+  height: 70px;
+  margin: 15px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+  border: 3px solid transparent;
+}
+
+.playerChoise .option:hover {
+  border: 3px solid black;
+}
+
+.option i {
+  font-size: 50px;
+}
+
+.score {
+  width: 15%;
+  margin: 2.5%;
+  font-size: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #DFFF56;
+  border-radius: 50%;
+}
